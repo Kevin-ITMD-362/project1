@@ -67,7 +67,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 15%;
+    width: 30%;
 }
 
 input[type=submit]:hover {
