@@ -24,7 +24,7 @@ h1 {
 .silksong.gif {
     width: 32em;
     height: auto;
-    margin: 7px;
+    margin: 4em;
 }
 
 h2 {
@@ -63,7 +63,7 @@ input[type=submit] {
     padding: 1.3em;
     margin: 1.3em;
     border: none;
-    border-radius: 14px;
+    border-radius: 4px;
     box-sizing: border-box;
     width: 15%;
 }
