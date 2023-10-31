@@ -1,86 +1,86 @@
 /* Desktops */
+@media screen and (min-width: 760px) {
+    html {
+        line-height: 4em;
+        background-color: #313131;
+    }
 
-html {
-    line-height: 4em;
-    background-color: #313131;
+    body {
+        width: 100%;
+        box-sizing: border-box;
+        color: #ffffff;
+        margin: auto;
+        font-family: 'Trajan Pro', Times, serif;
+        text-align: center;
+        text-rendering: optimizeLegibility;
+    }
+
+    h1 {
+        font-size: 4em;
+        padding-top: 1em;
+        padding-bottom: 0.7em;
+        display: block;
+    }
+
+    .silksong.gif {
+        width: 32em;
+        height: auto;
+        margin: 4em;
+    }
+
+    h2 {
+        font-size: 2em;
+        padding: 0.5em;
+        line-height: 1.5em;
+        display: block;
+    }
+
+    p {
+        line-height: 1.2em;
+        padding: 1em;
+        display: block;
+    }
+
+    input[type=text] {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 1em;
+        margin: 10px 40px 10px 10px;
+    }
+
+    #Email {
+        margin: 0em 0em 0em 4.8em;
+    }
+
+    #Username {
+        margin: 0em 0.7em 0em 0em;
+    }
+
+    input[type=submit] {
+        background-color: #616161;
+        font-family: 'Trajan Pro', Times, serif;
+        color: white;
+        padding: 1.3em;
+        margin: 1.3em;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        width: 30%;
+    }
+
+    input[type=submit]:hover {
+        background-color: black;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .submit{
+        font-family: 'Trajan Pro', serif;
+    }
 }
 
-body {
-    width: 100%;
-    box-sizing: border-box;
-    color: #ffffff;
-    margin: auto;
-    font-family: 'Trajan Pro', Times, serif;
-    text-align: center;
-    text-rendering: optimizeLegibility;
-}
-
-h1 {
-    font-size: 4em;
-    padding-top: 1em;
-    padding-bottom: 0.7em;
-    display: block;
-
-}
-
-.silksong.gif {
-    width: 32em;
-    height: auto;
-    margin: 4em;
-}
-
-h2 {
-    font-size: 2em;
-    padding: 0.5em;
-    line-height: 1.5em;
-    display: block;
-}
-
-p {
-    line-height: 1.2em;
-    padding: 1em;
-    display: block;
-}
-
-input[type=text] {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    padding: 1em;
-    margin: 10px 40px 10px 10px;
-}
-
-#Email {
-    margin: 0em 0em 0em 4.8em;
-}
-
-#Username {
-    margin: 0em 0.7em 0em 0em;
-}
-
-input[type=submit] {
-    background-color: #616161;
-    font-family: 'Trajan Pro', Times, serif;
-    color: white;
-    padding: 1.3em;
-    margin: 1.3em;
-    border: none;
-    border-radius: 4px;
-    box-sizing: border-box;
-    width: 30%;
-}
-
-input[type=submit]:hover {
-    background-color: black;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.submit{
-    font-family: 'Trajan Pro', serif;
-}
-
-/* Media Queries (Laptops & Tablets maybe) */
-@media screen and (min-width: 600px) {  
+/* Media Queries (Landscape?) */
+@media screen and (min-width: 560px) {  
     html {
         line-height: 2em;
         background-color: #313131;
@@ -117,21 +117,29 @@ input[type=submit]:hover {
         display: block;
     }
 
+    #Email {
+        margin: 0em 0em 0em 2em;
+    }
+
+    #Username {
+        margin: 0em 0.5em 0em 0em;
+    }
+
     .submit {
         padding: 0.75em;
-        width: 30%;
+        width: 60%;
     }
 }
 
-/* Phones */
-@media screen and (min-width: 100px) {
+/* Portrait? */
+@media screen and (min-width: 320px) {
     html {
         line-height: 1.7em;
         background-color: #313131;
     }
 
     body {
-        width: 90%;
+        width: 100%;
         padding: 1.2em;
         margin: auto;
         font-family: 'Trajan Pro', serif;
