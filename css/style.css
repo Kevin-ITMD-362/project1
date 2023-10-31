@@ -20,6 +20,12 @@ h1 {
     display: block;
 }
 
+.silksong.gif {
+    width: 32em;
+    height: auto;
+    margin: 7px;
+}
+
 h2 {
     font-size: 2em;
     padding: 0.3em;
