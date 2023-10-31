@@ -7,6 +7,7 @@ html {
 body {
     background-color: #313131;
     width: 100%;
+    box-sizing: border-box;
     color: #ffffff;
     margin: auto;
     font-family: 'Trajan Pro', Times, serif;
@@ -49,6 +50,7 @@ input[type=text] {
 
 input[type=submit] {
     background-color: #616161;
+    font-family: 'Trajan Pro', Times, serif;
     color: white;
     padding: 1em;
     border: none;
@@ -72,7 +74,7 @@ input[type=submit]:hover {
    
     
     body {
-        width: 90%;
+        width: 95%;
         padding: 1.5em;
         background-color: #313131;
         margin: auto;
@@ -115,7 +117,7 @@ input[type=submit]:hover {
     }
 
     body {
-        width: 80%;
+        width: 90%;
         padding: 1.2em;
         background-color: #313131;
         margin: auto;
