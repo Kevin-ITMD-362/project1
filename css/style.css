@@ -6,10 +6,10 @@ html {
 
 body {
     background-color: #313131;
-    width: 1200px;
+    width: 100%;
     color: #ffffff;
     margin: auto;
-    font-family: 'Trajan Pro', serif;
+    font-family: 'Trajan Pro', Times, serif;
     text-align: center;
     text-rendering: optimizeLegibility;
 }
@@ -46,7 +46,7 @@ input[type=submit] {
     color: white;
     padding: 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 input[type=submit]:hover {
@@ -59,7 +59,7 @@ input[type=submit]:hover {
 }
 
 /* Media Queries (Laptops & Tablets maybe) */
-@media screen and (max-width: 1500px) and (min-width: 600px) {  
+@media screen and (min-width: 600px) {  
     html {
         line-height: 2em;
     }
@@ -103,7 +103,7 @@ input[type=submit]:hover {
 }
 
 /* Phones */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 100px) {
     html {
         line-height: 1.7em;
     }
@@ -137,6 +137,7 @@ input[type=submit]:hover {
 
     .Email, .Number, .Username, .submit {
         padding-bottom: 0.7em;
+        width: 90%;
         display: block;
     }
 
