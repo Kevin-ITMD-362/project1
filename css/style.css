@@ -2,10 +2,10 @@
 
 html {
     line-height: 4em;
+    background-color: #313131;
 }
 
 body {
-    background-color: #313131;
     width: 100%;
     box-sizing: border-box;
     color: #ffffff;
@@ -41,20 +41,24 @@ p {
 }
 
 input[type=text] {
-    border: 1px solid #cccccc;
-    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 30%;
+    border-radius: 4px;
     box-sizing: border-box;
-    padding: 0.5em;
-    margin: 0.3em;
+    padding: 1em;
+    margin: 10px 0px 10px 10px;
 }
 
 input[type=submit] {
     background-color: #616161;
     font-family: 'Trajan Pro', Times, serif;
     color: white;
-    padding: 1em;
+    padding: 1.3em;
+    margin: 1.3em;
     border: none;
-    border-radius: 10px;
+    border-radius: 14px;
+    box-sizing: border-box;
+    width: 15%;
 }
 
 input[type=submit]:hover {
