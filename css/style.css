@@ -83,12 +83,12 @@ input[type=submit]:hover {
 @media screen and (min-width: 600px) {  
     html {
         line-height: 2em;
+        background-color: #313131;
     }
    
     body {
         width: 95%;
         padding: 1.5em;
-        background-color: #313131;
         margin: auto;
         font-family: 'Trajan Pro', serif;
         text-align: center;
@@ -119,6 +119,7 @@ input[type=submit]:hover {
 
     .submit {
         padding: 0.75em;
+        width: 30%;
     }
 }
 
@@ -126,12 +127,12 @@ input[type=submit]:hover {
 @media screen and (min-width: 100px) {
     html {
         line-height: 1.7em;
+        background-color: #313131;
     }
 
     body {
         width: 90%;
         padding: 1.2em;
-        background-color: #313131;
         margin: auto;
         font-family: 'Trajan Pro', serif;
         text-align: center;
@@ -163,5 +164,6 @@ input[type=submit]:hover {
 
     .submit {
         padding: 0.6em;
+        width: 30%;
     }
 }
