@@ -1,174 +1,197 @@
 /* Desktops */
-@media screen and (min-width: 760px) {
-    html {
-        line-height: 4em;
-        background-image: url("../media/dirtmouf.png");
-    }
 
-    body {
-        width: 100%;
-        box-sizing: border-box;
-        color: #ffffff;
-        margin: auto;
-        font-family: 'Trajan Pro', Times, serif;
-        text-align: center;
-        text-rendering: optimizeLegibility;
-    }
+.Email,
+.Number,
+.Username {
+  padding-bottom: 0.7em;
+  width: 90%;
+}
 
-    h1 {
-        font-size: 4em;
-        padding-top: 1em;
-        padding-bottom: 0.7em;
-        display: block;
-    }
+input {
+  display: block;
+  width: 100%;
+}
 
-    .silksong.gif {
-        width: 32em;
-        height: auto;
-        margin: 4em;
-    }
+form {
+  padding: 1.5em;
+}
 
-    h2 {
-        font-size: 2em;
-        padding: 0.5em;
-        line-height: 1.5em;
-        display: block;
-    }
+label {
+  width: 100%;
+  text-align: left;
+}
 
-    p {
-        line-height: 1.2em;
-        padding: 1em;
-        display: block;
-    }
+input[type=submit] {
+  width: inherit;
+  background-color: #37379493;
+  margin: 0 auto;
+}
 
-    input[type=text] {
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        padding: 1em;
-        margin: 10px 40px 10px 10px;
-    }
+html {
+  line-height: 4em;
+  background-image: url("../media/blurmouf.png");
+}
 
-    form {
-        border: 2px solid black;
-        border-radius: 3px;
-    }
+body {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  color: #ffffff;
+  margin: auto;
+  font-family: "Trajan Pro", Times, serif;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
 
-    input[type=submit] {
-        background-color: #616161;
-        font-family: 'Trajan Pro', Times, serif;
-        color: white;
-        padding: 1.3em;
-        margin: 1.3em;
-        border: none;
-        border-radius: 4px;
-        box-sizing: border-box;
-        width: 30%;
-    }
+h1 {
+  font-size: 4em;
+  padding-top: 1em;
+  padding-bottom: 0.7em;
+  display: block;
+}
 
-    input[type=submit]:hover {
-        background-color: black;
-        transition: background-color 0.3s ease-in-out;
-    }
+.silksong.gif {
+  width: 32em;
+  height: auto;
+  margin: 4em;
+}
 
-    .submit{
-        font-family: 'Trajan Pro', serif;
-    }
+h2 {
+  font-size: 2em;
+  padding: 0.5em;
+  line-height: 1.5em;
+  display: block;
+}
+
+p {
+  line-height: 1.2em;
+  padding: 1em;
+  display: block;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 10px 40px 10px 10px;
+}
+
+form {
+  border: 2px solid rgba(0, 0, 0, 0.26);
+  background-color: #37379446;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #37379493;
+  font-family: "Trajan Pro", Times, serif;
+  color: white;
+  padding: 1.3em;
+  margin: 1.3em;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit {
+  font-family: "Trajan Pro", serif;
 }
 
 /* Media Queries (Landscape?) */
-@media screen and (min-width: 560px) {  
-    html {
-        line-height: 2em;
-        background-image: url("../media/dirtmouf.png");
-    }
-   
-    body {
-        width: 95%;
-        padding: 1.5em;
-        margin: auto;
-        font-family: 'Trajan Pro', serif;
-        text-align: center;
-        text-rendering: optimizeLegibility;
-    }
+@media screen and (min-width: 560px) {
+  html {
+    line-height: 2em;
+    background-image: url("../media/blurmouf.png");
+  }
 
-    h1 {
-        font-size: 2.3em;
-        padding-top: 1em;
-        display: block;
-    }
+  body {
+    width: 95%;
+    padding: 1.5em;
+    background: transparent;
+    margin: auto;
+    font-family: "Trajan Pro", serif;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+  }
 
-    h2 {
-        font-size: 1.2em;
-        padding: 0.4em;
-        display: block;
-    }
+  h1 {
+    font-size: 2.3em;
+    padding-top: 1em;
+    display: block;
+  }
 
-    p {
-        line-height: 1em;
-        font-size: 1em;      
-    }
+  h2 {
+    font-size: 1.2em;
+    padding: 0.4em;
+    display: block;
+  }
 
-    .Email, .Number, .Username, .submit {
-        padding-bottom: 1em;
-        display: block;
-    }
+  p {
+    line-height: 1em;
+    font-size: 1em;
+  }
 
-    #Email {
-        margin: 0em 0em 0em 2em;
-    }
+  .Email,
+  .Number,
+  .Username,
+  .submit {
+    padding-bottom: 1em;
+    display: block;
+  }
 
-    #Username {
-        margin: 0em 0.5em 0em 0em;
-    }
-
-    .submit {
-        padding: 0.75em;
-        width: 60%;
-    }
+  .submit {
+    padding: 0.75em;
+    background-color: #37379493;
+  }
 }
 
 /* Portrait? */
-@media screen and (min-width: 320px) {
-    html {
-        line-height: 1.7em;
-        background-image: url("../media/dirtmouf.png");
-    }
+@media screen and (min-width: 600px) {
+  html {
+    line-height: 1.7em;
+    background-image: url("../media/blurmouf.png");
+  }
 
-    body {
-        width: 100%;
-        padding: 1.2em;
-        margin: auto;
-        font-family: 'Trajan Pro', serif;
-        text-align: center;
-        text-rendering: optimizeLegibility;
-    }
+  input {
+    width: inherit;
+    display: inline;
+  }
 
-    h1 {
-        font-size: 1.66667em;
-        padding-top: 1em;
-        display: block;
-    }
+  body {
+    width: 100%;
+    padding: 1.2em;
+    background: transparent;
+    margin: auto;
+    font-family: "Trajan Pro", serif;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+  }
 
-    h2 {
-        font-size: 1em;
-        padding: 0.4em;
-        display: block;
-    }
+  h1 {
+    font-size: 1.66667em;
+    padding-top: 1em;
+    display: block;
+  }
 
-    p {
-        line-height: 1em;
-        font-size: 0.7em;        
-    }
+  h2 {
+    font-size: 1em;
+    padding: 0.4em;
+    display: block;
+  }
 
-    .Email, .Number, .Username, .submit {
-        padding-bottom: 0.7em;
-        width: 90%;
-        display: block;
-    }
+  p {
+    line-height: 1em;
+    font-size: 0.7em;
+  }
 
-    .submit {
-        padding: 0.6em;
-        width: 30%;
-    }
+  label {
+    width: 250px;
+    display: inline-block;
+  }
 }
